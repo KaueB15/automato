@@ -19,7 +19,8 @@ public class Question5 {
                 states,
                 alphabet,
                 q0,
-                finalState
+                finalState,
+                false
         );
 
         afd.setTransition(q0, '0', q0);

@@ -20,7 +20,8 @@ public class Question1_1 {
                 states,
                 alphabet,
                 q0,
-                finalState
+                finalState,
+                false
         );
 
         afd.setTransition(q0, '0', q0);
@@ -31,6 +32,7 @@ public class Question1_1 {
         afd.verifyAFD("0011");
         afd.verifyAFD("000000");
         afd.verifyAFD("1111");
+        afd.verifyAFD("");
 
     }
 }
